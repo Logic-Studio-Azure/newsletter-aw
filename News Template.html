@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Logic</title>
+    <style>
+        .header-container {
+            background-color: #FFFFFF;
+            margin: 0 auto;
+            max-width: 700px;
+            padding: 24px;
+        }
+        .logo-container {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .logo {
+            max-width: 200px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .logo-header {
+            max-width: 700px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        @media only screen and (max-width: 480px) {
+            .logo {
+                max-width: 180px;
+            }
+            .logo-header {
+                max-width: 180px;
+            }
+        }
+    </style>
+    <style>
+        .noticia { background: #fff; margin: 32px auto; max-width: 700px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); border-radius: 8px; padding: 24px; }
+        .cta-container { background: #fff; margin: 32px auto; max-width: 700px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); border-radius: 8px; padding: 24px; }
+        .noticia img { max-width: 100%; border-radius: 6px; margin-bottom: 16px; }
+        .noticia h2 { margin-top: 0; color: #24292f; }
+        .noticia p { color: #444; }
+        .noticia a { color: #0366d6; text-decoration: none; }
+        .noticia a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f4f4f4; font-family: Arial, sans-serif;">
+    <div class="header-container">
+        <div class="logo-container">
+            <img class="logo" src="https://logicsstoragenews.blob.core.windows.net/imagenes/logo-logic-studio-retina-480-x121.png" alt="Logic Studio Logo" width="200">
+        </div>
+        <div class="logo-container">
+            <img class="logo-header" alt="" src="https://sv8k1.mjt.lu/img2/sv8k1/86edfc71-b2ec-453a-80e1-7bf3db9e8610/content" width="600">
+        </div>
+        <div class="Title">
+        <h1 class="text-build-content" style="margin-top: 10px; margin-bottom: 10px; font-weight: normal;">
+            <span style="color:#063761;font-family:Arial;font-size:40px;line-height:40px;">
+                <b>Logic Bytes | Noticias y tendencias para mantener tu stack al día</b>
+            </span></h1>
+        </div>
+    </div>
+    <!-- Sección de noticias -->
+        
+
+    <!-- Agendar reunión -->
+    <div class="cta-container">
+        <p>¿Quieres asesoría de nuestros expertos para tus proyectos de desarrollo?</p>
+        <table cellpadding="0" cellspacing="0" border="0" style="margin: 0;">
+            <tr>
+                <td>
+                    <a href="https://outlook.office.com/bookwithme/user/ea4f5e7cf09b4bd8abf877294c0bc76e%40logicstudioplus.net?anonymous&ismsaljsauthenabled=true" target="_blank" style="text-decoration: none;">
+                        <table cellpadding="0" cellspacing="0" border="0" style="background:#063761; border-radius:40px;">
+                            <tr>
+                                <td style="padding:10px 25px; text-align:center; vertical-align:middle;">
+                                    <span style="color:#ffffff;font-family:Verdana, Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;text-decoration:none;">
+                                        Agendar una reunión
+                                    </span>
+                                </td>
+                            </tr>
+                        </table>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+    <!-- Sección de redes sociales simplificada -->
+    <div class="social-container" style="max-width: 600px; margin: 0 auto; padding: 10px 16px;">
+        <table cellpadding="0" cellspacing="0" border="0" style="margin: 0;">
+            <tr>
+                <!-- LinkedIn -->
+                <td style="padding-right: 10px;">
+                    <a href="https://www.linkedin.com/company/logicstudioplus" target="_blank" style="display: inline-block; text-decoration: none;">
+                        <table cellpadding="0" cellspacing="0" border="0" style="background:#063761; border-radius:50%; width:40px; height:40px;">
+                            <tr>
+                                <td style="text-align: center; vertical-align: middle; width:40px; height:40px; line-height: 1;">
+                                    <img alt="LinkedIn" height="24" src="https://static.mailjet.com/ico-social/linkedin.png" style="display:block; margin: 0 auto;" width="24">
+                                </td>
+                            </tr>
+                        </table>
+                    </a>
+                </td>
+                
+                <!-- Facebook -->
+                <td style="padding-right: 10px;">
+                    <a href="https://www.facebook.com/LogicStudioPlus" target="_blank" style="display: inline-block; text-decoration: none;">
+                        <table cellpadding="0" cellspacing="0" border="0" style="background:#063761; border-radius:50%; width:40px; height:40px;">
+                            <tr>
+                                <td style="text-align: center; vertical-align: middle; width:40px; height:40px; line-height: 1;">
+                                    <img alt="Facebook" height="24" src="https://static.mailjet.com/ico-social/facebook.png" style="display:block; margin: 0 auto;" width="24">
+                                </td>
+                            </tr>
+                        </table>
+                    </a>
+                </td>
+                
+                <!-- Twitter/X -->
+                <td>
+                    <a href="https://x.com/LogicStudioPlus" target="_blank" style="display: inline-block; text-decoration: none;">
+                        <table cellpadding="0" cellspacing="0" border="0" style="background:#063761; border-radius:50%; width:40px; height:40px;">
+                            <tr>
+                                <td style="text-align: center; vertical-align: middle; width:40px; height:40px; line-height: 1;">
+                                    <img alt="Twitter/X" height="24" src="https://static.mailjet.com/ico-social/twitter-x.png" style="display:block; margin: 0 auto;" width="24">
+                                </td>
+                            </tr>
+                        </table>
+                    </a>
+                </td>
+            </tr>
+        </table>
+        
+        <!-- Información de contacto -->
+        <div style="margin-top: 20px; font-family:Verdana, Helvetica, Arial, sans-serif; font-size:13px; color:#000000;">
+            <p style="margin: 10px 0; margin-top: 10px;">
+                <span style="color:#272F36;font-family:Arial;font-size:14px;letter-spacing:2px;line-height:20px;">
+                    <b>LOGIC STUDIO&nbsp;</b>
+                </span>
+            </p>
+            <p style="margin: 10px 0;">Quito - Ecuador, Av Rumipamba y República.&nbsp;</p>
+            <p style="margin: 10px 0;">Esq. Edificio Signature</p>
+            <p style="margin: 10px 0; margin-bottom: 10px;">
+                <span style="color:#272F36;font-family:Arial;font-size:14px;line-height:20px;">info@logicstudioplus.net</span>
+            </p>
+        </div>
+        
+        <!-- Separador -->
+        <div style="border-top:solid 1px #063761; margin: 15px 0;"></div>
+        
+        <!-- Logo en el pie -->
+        <div>
+            <img alt="logo" src="https://logicsstoragenews.blob.core.windows.net/imagenes/logo-logic-studio-retina-100-x28.png" style="height:28px; width:100px; max-width: 100%;">
+        </div>
+        <div>
+            <span style="color:#272F36;text-align:center;line-height:20px;font-size:14px;font-family:Arial;">Si no deseas recibir esta comunicación haz clic en </span>
+            <a href="[[UNSUB_LINK_ES]]" target="_blank" style="text-decoration: none;">
+                <span style="color:#d63d00;text-align:center;line-height:20px;font-size:14px;font-family:Arial;">
+                <u>cancelar suscripción</u>
+                </span>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

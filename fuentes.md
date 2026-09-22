@@ -1,0 +1,5 @@
+- https://github.blog/
+- https://www.anthropic.com/news
+- https://claude.com/blog
+- https://openai.com/es-ES/news/
+- https://developers.openai.com/blog
