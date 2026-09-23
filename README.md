@@ -4,3 +4,4 @@ Bienvenido al repositorio del newsletter "Logic Bytes". Aquí encontrarás todas
 
 ## Ediciones Publicadas
 - [News Sep 2026 1](page/2026/sep/News%20Sep%202026%201.html)
+- [News Sep 2026 2](page/2026/sep/News%20Sep%202026%202.html)
