@@ -2,6 +2,7 @@
 description: |
   Genera semanalmente una nueva edición del newsletter siguiendo `proceso.md`,
   crea el HTML en `page/` y actualiza `README.md` con la nueva edición.
+intent: Publicar semanalmente una edición del newsletter con contenido verificable y actualizar README con su referencia.
 
 on:
   schedule: weekly
