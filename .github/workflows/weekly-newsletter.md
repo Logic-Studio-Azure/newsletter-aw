@@ -11,7 +11,13 @@ permissions:
   contents: read
   copilot-requests: write
 
-network: defaults
+network:
+  allowed:
+    - defaults
+    - github
+    - https://anthropic.com
+    - https://claude.com
+    - https://openai.com
 
 safe-outputs:
   create-pull-request:
