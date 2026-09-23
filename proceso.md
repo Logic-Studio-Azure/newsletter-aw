@@ -9,6 +9,7 @@
 
 - En el archivo `fuentes.md` se encuentra un listado de páginas en los que se puede buscar noticias relevantes.
 - En el archivo `lineamientos-marketing.md` se encuentran las pautas para determinar la relevancia de las noticias.
+- Debes seleccionar 4 noticias relevantes.
 
 ### Extraer contenido.
 
@@ -42,6 +43,8 @@ https://img.youtube.com/vi/{ID DEL VIDEO}/hqdefault.jpg
 - Crear un archivo con el nombre `News <MMM> <YYYY> <numero_semana>.html`.
 - Guardar el archivo en la carpeta correspondiente dentro de la carpeta `page`. Por ejemplo:
     - `page/2026/sep/News <MMM> <YYYY> <numero_semana>.html`
+
+- Valida que el archivo contenga las 4 noticias agregadas.
 
 ### Actualizar README.md.
 
