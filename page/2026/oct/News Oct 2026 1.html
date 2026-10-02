@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Logic</title>
+    <style>
+        .header-container {
+            background-color: #FFFFFF;
+            margin: 0 auto;
+            max-width: 700px;
+            padding: 24px;
+        }
+        .logo-container {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .logo {
+            max-width: 200px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .logo-header {
+            max-width: 700px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        @media only screen and (max-width: 480px) {
+            .logo {
+                max-width: 180px;
+            }
+            .logo-header {
+                max-width: 180px;
+            }
+        }
+    </style>
+    <style>
+        .noticia { background: #fff; margin: 32px auto; max-width: 700px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); border-radius: 8px; padding: 24px; }
+        .cta-container { background: #fff; margin: 32px auto; max-width: 700px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); border-radius: 8px; padding: 24px; }
+        .noticia img { max-width: 100%; border-radius: 6px; margin-bottom: 16px; }
+        .noticia h2 { margin-top: 0; color: #24292f; }
+        .noticia p { color: #444; }
+        .noticia a { color: #0366d6; text-decoration: none; }
+        .noticia a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f4f4f4; font-family: Arial, sans-serif;">
+    <div class="header-container">
+        <div class="logo-container">
+            <img class="logo" src="https://logicsstoragenews.blob.core.windows.net/imagenes/logo-logic-studio-retina-480-x121.png" alt="Logic Studio Logo" width="200">
+        </div>
+        <div class="logo-container">
+            <img class="logo-header" alt="" src="https://sv8k1.mjt.lu/img2/sv8k1/86edfc71-b2ec-453a-80e1-7bf3db9e8610/content" width="600">
+        </div>
+        <div class="Title">
+        <h1 class="text-build-content" style="margin-top: 10px; margin-bottom: 10px; font-weight: normal;">
+            <span style="color:#063761;font-family:Arial;font-size:40px;line-height:40px;">
+                <b>Logic Bytes | Noticias y tendencias para mantener tu stack al día</b>
+            </span></h1>
+        </div>
+    </div>
+    <!-- Sección de noticias -->
+        <div class="noticia">
+            <h2>
+                <a href="https://www.anthropic.com/news/barclays-scales-claude" target="_blank" style="color:#24292f;text-decoration:none;">
+                    Barclays escala Claude para modernizar operaciones y mejorar la experiencia del cliente
+                </a>
+            </h2>
+            <img src="https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg" alt="Portada Seguridad Copilot" width="700">
+            <p>Barclays amplía su colaboración estratégica con Anthropic para integrar sistemas de IA seguros y de nivel empresarial en sus operaciones globales. El banco espera que la adopción de Claude Code llegue al 50% de su población de desarrolladores para finales de 2026, usándolo para acelerar el desarrollo de software y modernizar sistemas legados. Ya en producción, su asistente de conocimiento para colaboradores —impulsado por Claude mediante RAG— ha sido adoptado por más de 16,000 empleados y ha gestionado más de un millón de búsquedas, mientras otros equipos procesan unos 120,000 correos diarios con modelos Claude para clasificar y priorizar solicitudes de clientes.</p>
+            <p><a href="https://www.anthropic.com/news/barclays-scales-claude" target="_blank">Leer más</a></p>
+        </div>
+
+        <div class="noticia">
+            <h2>
+                <a href="https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/" target="_blank" style="color:#24292f;text-decoration:none;">
+                    GitHub Copilot app para principiantes: cómo construir flujos de trabajo personalizados con canvases
+                </a>
+            </h2>
+            <img src="https://github.blog/wp-content/uploads/2026/09/Screenshot-2026-09-23-at-3.59.20-PM.png" alt="Portada Seguridad Copilot" width="700">
+            <p>Describe en lenguaje natural la interfaz que necesitas y deja que el agente construya una superficie interactiva que puedes usar y actualizar en tiempo real. Esta guía de GitHub muestra cómo los equipos de desarrollo pueden crear canvases personalizados dentro de la GitHub Copilot app para visualizar datos, seguir el progreso de tareas o construir paneles a medida, sin necesidad de desarrollar una aplicación desde cero, acelerando la entrega de herramientas internas para empresas.</p>
+            <p><a href="https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/" target="_blank">Leer más</a></p>
+        </div>
+
+        <div class="noticia">
+            <h2>
+                <a href="https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/" target="_blank" style="color:#24292f;text-decoration:none;">
+                    Renderizando pull requests enormes en la GitHub Copilot app
+                </a>
+            </h2>
+            <img src="https://github.blog/wp-content/uploads/2026/06/MSFTBuild_Blog_Header_01.jpg" alt="Portada Seguridad Copilot" width="700">
+            <p>El equipo de ingeniería de GitHub explica cómo reconstruyó la superficie de diffs en la GitHub Copilot app para poder abrir pull requests de hasta un millón de líneas, con cientos de comentarios de revisión en línea, sin degradar el rendimiento. Este trabajo de optimización es clave para equipos empresariales que manejan bases de código grandes y necesitan revisar cambios masivos generados por agentes de IA de forma fluida y confiable.</p>
+            <p><a href="https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/" target="_blank">Leer más</a></p>
+        </div>
+
+        <div class="noticia">
+            <h2>
+                <a href="https://developers.openai.com/blog/custom-code-review-rules-for-codex" target="_blank" style="color:#24292f;text-decoration:none;">
+                    Reglas personalizadas de revisión de código para Codex
+                </a>
+            </h2>
+            <img src="https://developers.openai.com/images/blog/codex-custom-code-review-rules.png" alt="Portada Seguridad Copilot" width="700">
+            <p>Codex Code Review ahora puede usar reglas personalizadas del repositorio definidas en AGENTS.md para detectar problemas recurrentes, como romper contratos de API antiguos o exponer datos sensibles en logs, y señalar a los autores la guía detrás de cada hallazgo. Con el volumen semanal de pull requests más que duplicado en OpenAI desde el Q4, esta función ayuda a los equipos empresariales a mantener estándares de calidad y seguridad incluso cuando contribuyen agentes o desarrolladores nuevos que desconocen el historial del proyecto.</p>
+            <p><a href="https://developers.openai.com/blog/custom-code-review-rules-for-codex" target="_blank">Leer más</a></p>
+        </div>
+
+    <!-- Agendar reunión -->
+    <div class="cta-container">
+        <p>¿Quieres asesoría de nuestros expertos para tus proyectos de desarrollo?</p>
+        <table cellpadding="0" cellspacing="0" border="0" style="margin: 0;">
+            <tr>
+                <td>
+                    <a href="https://outlook.office.com/bookwithme/user/ea4f5e7cf09b4bd8abf877294c0bc76e%40logicstudioplus.net?anonymous&ismsaljsauthenabled=true" target="_blank" style="text-decoration: none;">
+                        <table cellpadding="0" cellspacing="0" border="0" style="background:#063761; border-radius:40px;">
+                            <tr>
+                                <td style="padding:10px 25px; text-align:center; vertical-align:middle;">
+                                    <span style="color:#ffffff;font-family:Verdana, Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;text-decoration:none;">
+                                        Agendar una reunión
+                                    </span>
+                                </td>
+                            </tr>
+                        </table>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+    <!-- Sección de redes sociales simplificada -->
+    <div class="social-container" style="max-width: 600px; margin: 0 auto; padding: 10px 16px;">
+        <table cellpadding="0" cellspacing="0" border="0" style="margin: 0;">
+            <tr>
+                <!-- LinkedIn -->
+                <td style="padding-right: 10px;">
+                    <a href="https://www.linkedin.com/company/logicstudioplus" target="_blank" style="display: inline-block; text-decoration: none;">
+                        <table cellpadding="0" cellspacing="0" border="0" style="background:#063761; border-radius:50%; width:40px; height:40px;">
+                            <tr>
+                                <td style="text-align: center; vertical-align: middle; width:40px; height:40px; line-height: 1;">
+                                    <img alt="LinkedIn" height="24" src="https://static.mailjet.com/ico-social/linkedin.png" style="display:block; margin: 0 auto;" width="24">
+                                </td>
+                            </tr>
+                        </table>
+                    </a>
+                </td>
+                
+                <!-- Facebook -->
+                <td style="padding-right: 10px;">
+                    <a href="https://www.facebook.com/LogicStudioPlus" target="_blank" style="display: inline-block; text-decoration: none;">
+                        <table cellpadding="0" cellspacing="0" border="0" style="background:#063761; border-radius:50%; width:40px; height:40px;">
+                            <tr>
+                                <td style="text-align: center; vertical-align: middle; width:40px; height:40px; line-height: 1;">
+                                    <img alt="Facebook" height="24" src="https://static.mailjet.com/ico-social/facebook.png" style="display:block; margin: 0 auto;" width="24">
+                                </td>
+                            </tr>
+                        </table>
+                    </a>
+                </td>
+                
+                <!-- Twitter/X -->
+                <td>
+                    <a href="https://x.com/LogicStudioPlus" target="_blank" style="display: inline-block; text-decoration: none;">
+                        <table cellpadding="0" cellspacing="0" border="0" style="background:#063761; border-radius:50%; width:40px; height:40px;">
+                            <tr>
+                                <td style="text-align: center; vertical-align: middle; width:40px; height:40px; line-height: 1;">
+                                    <img alt="Twitter/X" height="24" src="https://static.mailjet.com/ico-social/twitter-x.png" style="display:block; margin: 0 auto;" width="24">
+                                </td>
+                            </tr>
+                        </table>
+                    </a>
+                </td>
+            </tr>
+        </table>
+        
+        <!-- Información de contacto -->
+        <div style="margin-top: 20px; font-family:Verdana, Helvetica, Arial, sans-serif; font-size:13px; color:#000000;">
+            <p style="margin: 10px 0; margin-top: 10px;">
+                <span style="color:#272F36;font-family:Arial;font-size:14px;letter-spacing:2px;line-height:20px;">
+                    <b>LOGIC STUDIO&nbsp;</b>
+                </span>
+            </p>
+            <p style="margin: 10px 0;">Quito - Ecuador, Av Rumipamba y República.&nbsp;</p>
+            <p style="margin: 10px 0;">Esq. Edificio Signature</p>
+            <p style="margin: 10px 0; margin-bottom: 10px;">
+                <span style="color:#272F36;font-family:Arial;font-size:14px;line-height:20px;">info@logicstudioplus.net</span>
+            </p>
+        </div>
+        
+        <!-- Separador -->
+        <div style="border-top:solid 1px #063761; margin: 15px 0;"></div>
+        
+        <!-- Logo en el pie -->
+        <div>
+            <img alt="logo" src="https://logicsstoragenews.blob.core.windows.net/imagenes/logo-logic-studio-retina-100-x28.png" style="height:28px; width:100px; max-width: 100%;">
+        </div>
+        <div>
+            <span style="color:#272F36;text-align:center;line-height:20px;font-size:14px;font-family:Arial;">Si no deseas recibir esta comunicación haz clic en </span>
+            <a href="[[UNSUB_LINK_ES]]" target="_blank" style="text-decoration: none;">
+                <span style="color:#d63d00;text-align:center;line-height:20px;font-size:14px;font-family:Arial;">
+                <u>cancelar suscripción</u>
+                </span>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
