@@ -16,3 +16,7 @@ Ejecutar un agent workflow
 ```
 gh aw run YOUR-WORKFLOW-NAME
 ```
+
+Documentación 
+https://docs.github.com/en/copilot/how-tos/github-agentic-workflows/quickstart
+https://docs.github.com/en/copilot/how-tos/github-agentic-workflows/creating-github-agentic-workflows
