@@ -8,3 +8,4 @@ Bienvenido al repositorio del newsletter "Logic Bytes". Aquí encontrarás todas
 - [News Oct 2026 1](page/2026/oct/News%20Oct%202026%201.html)
 - [News Nov 2026 1](page/2026/nov/News%20Nov%202026%201.html)
 - [News Nov 2026 2](page/2026/nov/News%20Nov%202026%202.html)
+- [News Nov 2026 3](page/2026/nov/News%20Nov%202026%203.html)
